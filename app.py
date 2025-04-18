@@ -68,9 +68,7 @@ def calculate_min_cost():
     return jsonify({"minimum_cost": cost})
 
 
-@app.route('/')
-def home():
-    return "API is running!"
+
 
 
 if __name__ == '__main__':
